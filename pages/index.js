@@ -45,6 +45,7 @@ export default function Home() {
             width={30}
             height={30}
             alt="Connect on Twitter."
+            unoptimized
           />
         </a>
 
@@ -59,6 +60,7 @@ export default function Home() {
             width={30}
             height={30}
             alt="Join the Discord!"
+            unoptimized
           />
         </a>
 
@@ -73,6 +75,7 @@ export default function Home() {
             width={30}
             height={30}
             alt="View contract on Etherscan."
+            unoptimized
           />
         </a>
 
@@ -87,6 +90,7 @@ export default function Home() {
             width={30}
             height={30}
             alt="Check out Dune Analytics."
+            unoptimized
           />
         </a>
 
@@ -101,6 +105,7 @@ export default function Home() {
             width={30}
             height={30}
             alt="Find the images on GitHub."
+            unoptimized
           />
         </a>
 
@@ -115,6 +120,7 @@ export default function Home() {
             width={30}
             height={30}
             alt="Find us on rarity.tools!"
+            unoptimized
           />
         </a>
       </div>
@@ -131,6 +137,7 @@ export default function Home() {
           alt="Whale"
           width={200}
           height={200}
+          unoptimized
         />
       </div>
     );
@@ -143,6 +150,7 @@ export default function Home() {
         width={30}
         height={30}
         alt="View whales on OpenSea."
+        unoptimized
       />
     );
   };
@@ -197,6 +205,7 @@ export default function Home() {
           alt="Feeling lucky? Grab a whale."
           width={600}
           height={600}
+          unoptimized
         />
         <div className="mt-3 has-text-centered">
           <ExternalIcons />
