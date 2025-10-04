@@ -1,0 +1,74 @@
+@import '../node_modules/bulma/sass/utilities/initial-variables.sass';
+@import 'colours.scss';
+
+.container {
+  padding: 0 10rem;
+  height: 100%;
+  position: relative;
+  margin-top: 70px;
+}
+
+.img {
+  border-radius: 25px;
+}
+
+.mintedLabel {
+  margin-top: 5px;
+}
+
+.mintButton {
+  margin-top: 10px;
+  width: 420px;
+}
+
+.heroTitle {
+  font-size: 3rem !important;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(136, 0, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.soldOut {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+    margin-top: 30px;
+  }
+
+  .mintButton {
+    width: unset;
+  }
+}
+
+@media screen and (min-width: $fullhd) {
+  .heroTitle {
+    font-size: 9.5rem !important;
+  }
+}
+
+.titleBrand {
+  color: $brand-yellow;
+}
+
+.tableBrand {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: smaller;
+  thead td,
+  thead th {
+    color: #ffffff !important;
+  }
+}
+
+.sectionProvenanace {
+  margin-top: 20px;
+}

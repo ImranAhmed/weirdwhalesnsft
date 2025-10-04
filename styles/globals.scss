@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import 'colours.scss';
+
+$baby-blue: $brand-black;
+
+$purple: $brand-purple;
+$pink: $brand-pink;
+$beige: $brand-white;
+$yellow: $brand-yellow;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Poppins', sans-serif;
+$grey-dark: $beige;
+$grey-light: $yellow;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $baby-blue;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+@import '../node_modules/bulma/bulma.sass';
+
+@import '~bulma-slider';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+}
+
+a,
+a:hover,
+a:active {
+  color: $purple;
+  text-decoration: none;
+}
+
+.title {
+  color: $beige;
+  margin-top: 20px;
+}
